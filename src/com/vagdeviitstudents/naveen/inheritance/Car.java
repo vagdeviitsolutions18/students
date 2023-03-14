@@ -1,5 +1,7 @@
 package com.vagdeviitstudents.naveen.inheritance;
 
-public class Car {
+import com.vagdeviitstudents.naveen.Vehicle;
+
+public class Car extends Vehicle{
 
 }
