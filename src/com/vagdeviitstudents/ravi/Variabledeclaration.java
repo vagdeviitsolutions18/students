@@ -7,6 +7,18 @@ public class Variabledeclaration {
 		int a=12;
 		System.out.println(a);
 		
+		int A=23;
+		System.out.println(A);
+		
+		int $=234;
+		System.out.println($);
+		
+		int _R=45;
+		System.out.println(_R);
+		
+		int _R_$=657;
+		System.out.println(_R_$);
+		
 		char ch='R';
 		System.out.println(ch);
 		
