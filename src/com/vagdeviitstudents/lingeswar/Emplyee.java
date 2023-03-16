@@ -1,18 +1,18 @@
 package com.vagdeviitstudents.lingeswar;
 
-    class Emplyee 
-    {
+   class Emplyee
+   {
 	   String empName;
 	   long empSalary;
 	Emplyee()
 	{
-		System.out.println("Emplyee is Created");
+		System.out.println("The Emplyee is Created");
 	}
 	Emplyee(String n,long s)
 	{
 		this.empName=n;
 		this.empSalary=s;
-		System.out.println("Emplyee Name :"+n);
-		System.out.println("Emplyee Salary :"+s);
+		System.out.println("The Emplyee Name is :"+n);
+		System.out.println("The Emplyee Salary is :"+s);
 	}
-    }
+   }
