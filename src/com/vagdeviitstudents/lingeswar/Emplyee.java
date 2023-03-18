@@ -6,7 +6,8 @@ package com.vagdeviitstudents.lingeswar;
 	   long empSalary;
 	Emplyee()
 	{
-		System.out.println("The Emplyee is Created");
+		System.out.println("The Emplyee is Created");	
+		new Emplyee("Ravi",25);
 	}
 	Emplyee(String n,long s)
 	{

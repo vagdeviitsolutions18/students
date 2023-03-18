@@ -1,14 +1,16 @@
 package com.vagdeviitstudents.ravi;
 
-class Emplyee 
+class Employe 
 {
    String empName;
    long empSalary;
-Emplyee()
+
+   Employe() //Default constuctor
 {
 	System.out.println("Emplyee is Created");
+	new Employe("Ravi",25);
 }
-Emplyee(String n,long s)
+Employe(String n,long s)//parameterized constuctor
 {
 	this.empName=n;
 	this.empSalary=s;
