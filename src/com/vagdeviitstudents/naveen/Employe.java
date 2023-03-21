@@ -23,11 +23,11 @@ package com.vagdeviitstudents.naveen;
     	}
     	public static void main(String[] args) {
     		
-            Test t1 = new Test();
-            
-            t1.Name();
-    		t1.Department();
-    		t1.work();
+//            Test t1 = new Test();
+//            
+//            t1.Name();
+//    		t1.Department();
+//    		t1.work();
     		
     	}
     	
