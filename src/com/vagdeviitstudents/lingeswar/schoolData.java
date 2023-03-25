@@ -36,11 +36,12 @@ public class schoolData
 	
 	public static void main(String[] args)
 	{
-		ArrayList<Student4> stlist1=new ArrayList<Student4>();
-		stlist1.add(new Student4(101,"Hari",25));
-		stlist1.add(new Student4(102,"Sajeed",30));
-		stlist1.add(new Student4(103,"Balu",35));
+		ArrayList<Student4> stlist=new ArrayList<Student4>();
+		stlist.add(new Student4(101,"Hari",25));
+		stlist.add(new Student4(102,"Sajeed",30));
+		stlist.add(new Student4(103,"Balu",35));
 		
+		System.out.println("\n**Teacther Data**");
 		
 		ArrayList<Teacher> tlist=new ArrayList<Teacher>();
 		tlist.add(new Teacher(201,"Megana","Engilish"));
@@ -58,13 +59,13 @@ public class schoolData
 	          Teacher tr=itr1.next();
 			  System.out.println(tr.id+","+tr.name+","+tr.subject);
 		}
-		
-		for(Student4 st: stlist1)
+		System.out.println("\n**Student Data**");
+		for(Student4 st: stlist)
 		{
 			System.out.println(st.id+","+st.name+","+st.age);
 		}
 		System.out.println("\n%% Using the iterator %%");
-		Iterator<Student4> itr = stlist1.iterator();
+		Iterator<Student4> itr = stlist.iterator();
 		while(itr.hasNext())
 		{
 	          Student4 s=itr.next();
