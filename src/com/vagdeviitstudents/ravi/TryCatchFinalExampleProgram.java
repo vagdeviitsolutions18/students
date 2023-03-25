@@ -1,31 +1,27 @@
-package com.vagdeviitstudents.lingeswar;
+package com.vagdeviitstudents.ravi;
 
-public class javaExceptionHandling 
+public class TryCatchFinalExampleProgram 
 {
-
 	public static void main(String args[])
 	{  
 		System.out.println("Program execution start");
-		int  fNumber=15;
-		int  sNumber=0;
-		int result=0;
+		int a=6;
+		int b=0;
+		int c=0;
 		try
 		{  
-
-			result=fNumber/sNumber; 
-			
+          c=a/b; 
 		}
 
 		catch(ArithmeticException ae)
 		{
 			System.out.println(ae.toString());
-			//throw ae;
-	      }
+			System.out.println("Output is :"+c);
+		}
 		finally
 		{
 			System.out.println("finally block");
 		}
-		System.out.println("Output is :"+result);
 		
 		System.out.println("Program execution end");  
 	}  
