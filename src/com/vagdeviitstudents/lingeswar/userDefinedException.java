@@ -12,6 +12,10 @@ public class userDefinedException
 		{
 			throw new InsufficientBalanceException("Insufficient Balance Please check the Balance");
 		}
+		finally
+		{
+			System.out.println("Finally");
+		}
 	}
 
 }
