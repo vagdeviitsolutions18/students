@@ -1,7 +1,9 @@
 package com.vagdeviitstudents.naveen.collections;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -22,14 +24,23 @@ public class NewFile {
 
 			bf.write("what is ur age");
 			bf.flush();
+			bf.close();
+		} catch (IOException oi) {
+		
+		}
 			
+			try {
 			
-			
-			File x = new File(floder, "text.txt");
-        x.createNewFile();
-         
-        
-			
+		//	 FileReader reader = new FileReader();
+			 File floder = new File("C:\\Users\\User\\students\\src\\com\\vagdeviitstudents\\abc.txt");
+				FileReader fr= new FileReader(floder);
+				BufferedReader br = new BufferedReader(fr);
+				
+				 String line;
+				while ((line = br.readLine()) != null) {
+		                System.out.println(line);
+				}
+		                
 			
 			
 		} catch (IOException oi) {
