@@ -17,7 +17,7 @@ public class Account {
 	public double balance() {
 		return balance;
 	}
-// as dounble with parameter amount  as we can create new method with deposite and withdraw)
+// as Double with parameter amount  as we can create new method with deposite and withdraw)
 
 	public void deposite(Double amount) {
 		if (amount < 0) {

@@ -45,7 +45,7 @@ public Stringconcept(int id, String name) {
 			System.out.println(emp1.equals(emp4));
 			
 							System.out.println(emp1);
-//					System.out.println(emp1.hashCode());
+							System.out.println(emp1.hashCode());
 				
 			
 		}
